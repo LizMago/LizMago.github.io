@@ -1,0 +1,565 @@
+/******************************* FONTS ************
+Blanket Light
+font-family: "blanket", sans-serif;
+font-weight: 300;
+font-style: normal;
+
+Blanket Regular
+font-family: "blanket", sans-serif;
+font-weight: 400;
+font-style: normal;
+
+Blanket Medium
+font-family: "blanket", sans-serif;
+font-weight: 500;
+font-style: normal;
+
+Blanket Bold
+font-family: "blanket", sans-serif;
+font-weight: 700;
+font-style: normal;
+
+Blanket Heavy
+font-family: "blanket", sans-serif;
+font-weight: 900;
+font-style: normal;
+
+Neue Kabel Medium
+font-family: "neue-kabel", sans-serif;
+font-weight: 600;
+font-style: normal;
+
+*******************************/
+/********************************** GLOBAL STYLES ****************************************/
+*{
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+}
+html{
+  align-content: center;
+  background-color: white;
+}
+h2{
+  font-family: "blanket", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: clamp(2rem,2.5vw,2.5rem);
+  text-shadow: gray 0 1px;
+}
+h3{
+  font-family: "blanket", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  font-size: 1.8rem;
+}
+h4{
+  font-family: "blanket", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  text-align: right;
+  padding-top: 3px;
+  font-size: clamp(1.3rem, 2.5vw, 1.7rem);
+  text-shadow: gray 0 1px;
+}
+h5{
+  font-family: "blanket", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  text-align: left;
+  font-size: 1.5rem;
+}
+li{
+  list-style: none;
+}
+figcaption{
+  font-family: "blanket", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  text-align: right;
+  padding-right: 24px;
+  font-size: 1.7rem;
+  color:rgb(210, 168, 30);
+}
+
+/**************************************** BODY ****************************************/
+/**************** LOGO ***************/
+.logo{
+  padding-bottom: 10px;
+}
+
+/**************** NAVIGATION ***************/
+header{
+  background-color: black;
+  padding-top: 10px;
+  text-align: center;
+}
+.navigation{
+  padding-bottom: 10px;
+  background-color: #61616165;
+  border-width: 1px 0 1px 0;
+  border-style: solid;
+}
+nav{
+  width: 75%;
+  display: block;
+  padding-top: 10px;
+}
+nav ul{
+  display: inline-block;
+}
+nav ul li{
+  display: inline-block;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+nav ul li a{
+  font-family: "neue-kabel", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 18px;
+  text-decoration: none;
+  color: #ffffff;
+  text-shadow: black 0 1px;
+}
+nav ul li a:hover{
+  color: #8db4d8;
+}
+
+.nav-mobile{
+  display: none;
+}
+
+/**************************************** MAIN ****************************************/
+
+/**************** HOME ***************/
+.img-wrapper-1{
+  padding: 10px;
+  background-image: url("../image/main-back.jpg");
+  background-size:cover;
+  background-position: left;
+  opacity: 0.9;
+}
+.voice{
+  width: 75%;
+  height: 290px;
+  text-align: left;
+}
+.voice p{
+  font-family: "neue-kabel", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1.7rem;
+  color: rgba(0, 0, 0, 0.651);
+  text-align: right;
+  padding-top: 245px;
+}
+
+/**************** ABOUT SECTION ***************/
+.about-section{
+  width: 75%;
+  padding: 40px 20px 40px 20px;
+  background-color: white;
+}
+.about-grid{
+  display: grid;
+  grid-template-columns:auto auto;
+  align-items: center;
+  padding: 0px 20px 30px 20px;
+}
+
+.about-text{
+  align-self: center;
+  padding-top: 20px;
+}
+.about-text p{
+  font-family: "blanket", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: clamp(1.3rem,2.5vw,1.7rem);
+  color: #7c989e;
+}
+.about-grid figure{
+  align-self: center;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+/**************** PROJECTS SECTION ***************/
+.projects-section{
+  background-color: black
+}
+.projects-div{
+  width: 75%;
+  padding: 20px 20px 20px 20px;
+}
+.projects-section h2{
+  padding: 30px 0px 10px 0px;
+  text-align: center;
+  color:white;
+}
+.projects-section h3{
+  color:white;
+  padding-bottom: 10px;
+}
+.projects-section p{
+  font-family: "blanket", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  text-align: center;
+  font-size: 1.3rem;
+  color: #7c989e;
+}
+.projects-section img{
+  box-shadow: 0 10px 25px rgba(92, 99, 105, .2);
+}
+.projects-grid1{
+  display: grid;
+  grid-template-columns:auto auto auto auto;
+  padding-top: 20px;
+}
+.project-1{
+  width: 250px;
+  text-align: center;
+}
+.project-2{
+  width: 250px;
+  text-align: center;
+}
+.project-3{
+  width: 250px;
+  text-align: center;
+}
+.project-4{
+  width: 250px;
+  text-align: center;
+}
+
+.projects-grid2{
+  display: grid;
+  grid-template-columns:auto auto auto auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.project-5{
+  width: 250px;
+  text-align: center;
+}
+.project-6{
+  width: 250px;
+  text-align: center;
+}
+.project-7{
+  width: 250px;
+  text-align: center;
+}
+.project-8{
+  width: 250px;
+  text-align: center;
+}
+
+/* onHover image will expand little bit */
+
+.projects-div img:hover {
+  transform: scale(1.1);
+  cursor: zoom-in;
+}
+
+/**************** BUTTON1 ***************/
+.button1{
+  text-align: right;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  border-style: none;
+}
+.button1 input{
+  font-family: "blanket", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  text-align: center;
+  font-size: 1.8rem;
+  color: black;
+  background: white;
+  width: 180px;
+  cursor: pointer;
+  border: 2px none;
+  border-radius: 6px;
+  padding: 5px 0px;
+}
+.button1 input:hover{
+  color: black;
+  background: #F3AE11;
+  cursor: pointer;
+}
+
+/**************** ACHIEVEMENTS SECTION ****************/
+.Achievements-section{
+  background-color: white;
+}
+.achievements-div{
+  width: 75%;
+  padding: 20px 20px 20px 20px;
+}
+.Achievements-section h2{
+  padding: 30px 0px 20px 0px;
+  text-align: center;
+}
+.achievements-grid{
+  padding: 5px 0px 10px 30px;
+}
+.achievement1,
+.achievement2,
+.achievement3,
+.achievement4{
+  display: grid;
+  grid-template-columns: min-content max-content;
+}
+.achievement1-text,
+.achievement2-text,
+.achievement3-text,
+.achievement4-text{
+  text-align: left;
+  padding: 5px 0px 10px 20px;
+}
+.achievements-grid p{
+  font-family: "blanket", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1.4rem;
+  color: #7c989e;
+}
+.border-achievement-section{
+  padding: 50px 0px 0px 0px;
+  border-bottom: #A6A6A6 2px dashed;
+}
+
+/**************** CONTACT SECTION ****************/
+.Contact-section{
+  background-color: black;
+}
+.contact-div{
+  width: 75%;
+  padding: 20px 20px 50px 20px;
+}
+.contact-div h2{
+  padding: 30px 0px 20px 0px;
+  text-align: center;
+  color:white;
+}
+.site-form h3{
+  text-align: left;
+  padding: 10px 0px 0px 40px;
+  color:#F3AE11;
+}
+.site-form h5{
+  text-align: left;
+  padding: 5px 0px 20px 45px;
+  color: rgba(255, 255, 255, 0.788);
+}
+.contact-grid{
+  display: grid;
+  grid-template-columns: auto auto;
+  text-align: center;
+}
+.contact-grid label{
+  font-family: "blanket", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px;
+  color: #515A73;
+}
+.contact-form-grid{
+  background-color: white;
+  width: 550px;
+  height: 300px;
+  border-radius: 8px;
+  padding: 10px 10px;
+  box-shadow: 0 10px 25px rgba(92, 99, 105, .2);
+}
+.contact-label-grid{
+  display: grid;
+  grid-template-columns: auto auto;
+  padding-top: 15px;
+}
+.contact-label-grid input{
+  font-family: "blanket", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  width: 200px;
+}
+.contact-message{
+  display: grid;
+  grid-template-columns: min-content;
+  padding-left: 34px;
+}
+.contact-message textarea{
+  font-family: "blanket", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+}
+.contact-img{
+  margin: 0;
+  position: relative;
+  padding-top: 5%;
+}
+
+/**************** BUTTON2 ***************/
+.button2{
+  text-align: center;
+  padding-top: 10px;
+  border-style: none;
+}
+.button2 input{
+  font-family: "blanket", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  text-align: center;
+  font-size: 1.8rem;
+  color: white;
+  background: black;
+  width: 180px;
+  cursor: pointer;
+  border: 2px none;
+  border-radius: 6px;
+  padding: 5px 0px;
+}
+.button2 input:hover{
+  color: black;
+  background: #F3AE11;
+  cursor: pointer;
+}
+
+/**************************************** FOOTER ****************************************/
+footer{
+  padding-bottom: 10px;
+  background-color: #292929;
+  border-width: 1px 0 1px 0;
+  border-style: solid;
+}
+.footer1-content{
+  width: 75%;
+  display: block;
+  padding-top: 20px;
+}
+.site-nav{
+  text-align: center;
+}
+.site-nav ul{
+  display: inline-block;
+}
+.site-nav ul li{
+  display: inline-block;
+  padding-right: 20px;
+  padding-left: 20px;
+  color: #ffffff;
+}
+.site-nav ul li a{
+  font-family: "neue-kabel", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 18px;
+  text-decoration: none;
+  color: #ffffff;
+  text-shadow: black 0 1px;
+}
+.site-nav ul li a:hover{
+  color: #8db4d8;
+}
+.social-media img:hover{
+  color: #8db4d8;
+}
+
+.copyright{
+  font-size: 15px;
+  text-align: center;
+  color: white;
+  padding: 20px 0px 10px 0px;
+}
+.copyright p{
+  font-family: "blanket", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+  font-size: clamp(1.0rem, 2.5vw, 1.5rem);
+}
+.footer2-mobile{
+  display: none;
+}
+
+/**************************************** MAIN MOBILE ****************************************/
+
+@media only screen and (max-width: 40em) {
+
+/******************* GLOBAL *******************/  
+  .btn-float{
+  bottom: 20px;
+  right: 20px;
+}
+  .btn-float img{
+      width: 30px;
+}
+
+
+
+/******************* HEADER *******************/ 
+
+
+/******************* NAVIGATION *******************/ 
+
+
+/******************* VOICE *******************/ 
+
+
+/******************* ABOUT US *******************/ 
+
+
+/******************* PRODUCTS *******************/ 
+
+/******************* FOOTER *******************/ 
+
+
+/******************* FOOTER-MOBILE *******************/
+
+
+/******************* NAV-BUTTON *******************/
+@media screen and (max-width: 40em){
+  nav{
+      display: none;
+  }
+  .nav-mobile{
+      display: block;
+      text-align: right;
+  }
+  .menu-bar{
+      cursor: pointer;
+  }    
+  .menu-bar + input{
+      display: none;
+  }    
+  .menu-bar + input + .list-mobile{
+      display: none;
+  }    
+  .menu-bar + input:checked + .list-mobile{
+      display: block;
+  }
+}
+}
+
+
+
+
+
+
+
+
+
+
+/**************************************** PROJECTS PAGE ****************************************/
+/**************************************** MAIN ****************************************/

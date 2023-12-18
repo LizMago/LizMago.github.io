@@ -1,0 +1,65 @@
+
+    body {
+        background-color: #000e5c;
+        margin-top: 3%;
+        text-align: center;
+    }
+    
+    #title {
+        text-align: center;
+        text-shadow: 5px 5px 10px rgb(0, 0, 0);
+        color: aliceblue;
+        font-size: 7vh;
+    }
+    
+    #img-1 img{
+        display: inline-block;
+        text-align: center;
+        width: 25%;
+    }
+    
+    #caption {
+        font-size: 15px;
+        font-family: Gill Sans;
+        color: rgb(206, 206, 206);
+    }
+
+    #tribute-data {
+        background-color: rgba(71, 71, 71, 0.25);
+        box-shadow: 20px 20px 20px #5b5774;
+        font-family: Georgia;
+        padding: 25px 25px;
+        margin: 11px;
+        margin-top: 50px;
+        text-align: left;
+    }
+
+    h1.title-AH {
+        font-size: 35px;
+        color: rgb(167, 167, 167);
+        text-align: center;
+        text-shadow: 5px 5px 10px black;
+    }
+
+    p {
+        color: white;
+    }     
+
+    #tribute-link {
+        text-decoration: none;
+        color: rgb(194, 194, 194);
+    }
+    
+    a:link {
+        color: green;
+        text-decoration: none;
+    }
+    a:visited {
+        color: pink;
+        text-decoration: none;
+    }
+    a:hover {
+        color: red;
+        background-color: transparent;
+        text-decoration: underline;
+    }

@@ -1,0 +1,135 @@
+/******************************* FONTS ************
+Blanket Light
+font-family: "blanket", sans-serif;
+font-weight: 300;
+font-style: normal;
+
+Blanket Regular
+font-family: "blanket", sans-serif;
+font-weight: 400;
+font-style: normal;
+
+Blanket Medium
+font-family: "blanket", sans-serif;
+font-weight: 500;
+font-style: normal;
+
+Blanket Bold
+font-family: "blanket", sans-serif;
+font-weight: 700;
+font-style: normal;
+
+Blanket Heavy
+font-family: "blanket", sans-serif;
+font-weight: 900;
+font-style: normal;
+
+Neue Kabel Medium
+font-family: "neue-kabel", sans-serif;
+font-weight: 600;
+font-style: normal;
+
+*******************************/
+/********************************** GLOBAL STYLES ****************************************/
+*{
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+  html{
+    align-content: center;
+    background-color: white;
+  }
+  h2{
+    font-family: "blanket", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: clamp(2rem,2.5vw,2.5rem);
+    text-shadow: gray 0 1px;
+  }
+  h3{
+    font-family: "blanket", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    font-size: 1.8rem;
+  }
+  h4{
+    font-family: "blanket", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    text-align: right;
+    padding-top: 3px;
+    font-size: clamp(1.3rem, 2.5vw, 1.7rem);
+    text-shadow: gray 0 1px;
+  }
+  h5{
+    font-family: "blanket", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    text-align: left;
+    font-size: 1.5rem;
+  }
+  li{
+    list-style: none;
+  }
+  figcaption{
+    font-family: "blanket", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    text-align: right;
+    padding-right: 24px;
+    font-size: 1.7rem;
+    color:rgb(210, 168, 30);
+  }
+  
+  /**************************************** BODY ****************************************/
+  /**************** LOGO ***************/
+  .logo{
+    padding-bottom: 10px;
+  }
+  
+  /**************** NAVIGATION ***************/
+  header{
+    background-color: black;
+    padding-top: 10px;
+    text-align: center;
+  }
+  .navigation{
+    padding-bottom: 10px;
+    background-color: #61616165;
+    border-width: 1px 0 1px 0;
+    border-style: solid;
+  }
+  nav{
+    width: 75%;
+    display: block;
+    padding-top: 10px;
+  }
+  nav ul{
+    display: inline-block;
+  }
+  nav ul li{
+    display: inline-block;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  nav ul li a{
+    font-family: "neue-kabel", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 18px;
+    text-decoration: none;
+    color: #ffffff;
+    text-shadow: black 0 1px;
+  }
+  nav ul li a:hover{
+    color: #8db4d8;
+  }
+  
+  .nav-mobile{
+    display: none;
+  }
+  
+  /**************************************** MAIN ****************************************/

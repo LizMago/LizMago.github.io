@@ -1,0 +1,63 @@
+* {
+  margin: 20;
+}
+
+div.main-body {
+  display: grid;
+  grid-template-columns: minmax(300px, auto)1fr;
+  grid-template-areas: "navbar mainContent";
+  grid-gap: 20px;
+  font-family: "forma-djr-text", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  line-height: 1.8em;
+}
+
+header{
+  font-family: "forma-djr-text", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color:cadetblue;
+}
+
+nav#navbar {
+  grid-area: navbar;
+  position: fixed;
+  color: black;
+}
+
+.nav-link{
+  background-color:cadetblue;
+}
+
+nav#navbar a {
+  display: block;
+  border: 1px solid rgb(0, 70, 59);
+  padding: 5px;
+  margin: 10px 0;
+  text-decoration: none;
+  color: white;
+  font-family: "forma-djr-text", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+main#main-doc {
+  grid-area: mainContent;
+  background-color: white;
+}
+
+header {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+code {
+  background-color: #CCC;
+  display: block;
+  padding: 20px;
+};
+
+main-section #Intro{
+  background-color: black;
+}
